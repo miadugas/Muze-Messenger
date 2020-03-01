@@ -30,7 +30,7 @@ export default function SignIn() {
 }
 
 
-export default Join;
+// export default Join;
 
 
 
