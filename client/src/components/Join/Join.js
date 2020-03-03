@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
+
+
 import './Join.css';
 
 export default function SignIn() {
@@ -10,12 +12,14 @@ export default function SignIn() {
   return (
     <div className="joinOuterContainer">
       <div className="joinInnerContainer">
-        <h1 className="heading">Demon Chat</h1>
+        <h1 className="heading">Muze Messenger</h1>
+        <h1 className="heading2">Realtime Chat <span role="img" aria-label="emoji">💬</span></h1>
+        <h2 className="heading3">Created with React.js, Node.js, <br/>Express.js and Socket.IO</h2>
         <div>
-          <input placeholder="Demon Name" className="joinInput" type="text" onChange={(event) => setName(event.target.value)} />
+          <input placeholder="Your User Name" className="joinInput" type="text" onChange={(event) => setName(event.target.value)} />
         </div>
         <div>
-          <input placeholder="Layer of Hell or Room" className="joinInput mt-20" type="text" onChange={(event) => setRoom(event.target.value)} />
+          <input placeholder="Your Room ID" className="joinInput mt-20" type="text" onChange={(event) => setRoom(event.target.value)} />
         </div>
 
         {/* passing data through query stings instead of props 

@@ -18,7 +18,9 @@ html, body {
     text-align: center;
     height: 100vh;
     align-items: center;
-    background-color: #1A1A1D;
+    /* background-color: #1A1A1D; */
+    background-image: url(../../icons/IMG_6431.JPEG);
+    background-size: cover;
 }
 
 .joinInnerContainer {
@@ -36,6 +38,20 @@ html, body {
     font-size: 2.5em;
     padding-bottom: 10px;
     border-bottom: 2px solid white;
+}
+
+.heading2 {
+  color: white;
+  font-size: 1em;
+  padding-bottom: 10px;
+  /* border-bottom: 2px solid white; */
+}
+
+.heading3 {
+  color: white;
+  font-size: .75em;
+  padding-bottom: 10px;
+  /* border-bottom: 2px solid white; */
 }
   
   .button {

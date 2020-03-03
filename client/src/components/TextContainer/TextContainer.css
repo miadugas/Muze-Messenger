@@ -1,3 +1,8 @@
+.outerContainer {
+  background-image: url(../../icons/IMG_6431.JPEG);
+    background-size: cover;
+}
+
 .textContainer {
     display: flex;
     flex-direction: column;
