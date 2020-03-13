@@ -14,8 +14,8 @@ export default function SignIn() {
       <div className="joinInnerContainer">
         <h1 className="heading">Muze Messenger</h1>
         <h1 className="heading2">Realtime Chat <span role="img" aria-label="emoji">💬</span></h1>
-        <h1 className="heading4">To Use: Enter a your unique User Name, enter or create a Room join and chat away</h1>
-        <h2 className="heading3">Created with React.js, Node.js, <br/>Express.js and Socket.IO</h2>
+        <h2 className="heading3">To Use: <br/>Express.js and Socket.IO</h2>
+        {/* <h2 className="heading3">Created with React.js, Node.js, <br/>Express.js and Socket.IO</h2> */}
         <div>
           <input placeholder="Your User Name" className="joinInput" type="text" onChange={(event) => setName(event.target.value)} />
         </div>
