@@ -1,4 +1,5 @@
-# react-chat
+# Muze-Messenger
+Realtime Jamstack chat application. A realtime chat Jamstack application with server side deployed to Heroku and client side deployed to Netlify & Github. This standalone application can be easily integrated into existing or new builds. Tools used: React.js, Node.js, Express.js, SocketIO, Heroku, Netlify
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
