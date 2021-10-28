@@ -1,5 +1,5 @@
 # Muze-Messenger
-Realtime Jamstack chat application. A realtime chat Jamstack application with server side deployed to Heroku and client side deployed to Netlify & Github. This standalone application can be easily integrated into existing or new builds. Tools used: React.js, Node.js, Express.js, SocketIO, Heroku, Netlify
+Realtime Jamstack chat application. A realtime chat Jamstack application with server side deployed to Heroku and client side deployed to Netlify & Github. This standalone application can be easily integrated into existing or new builds. Tools used: React.js, Node.js, Express.js, SocketIO, Heroku, Netlify. A Collaboration with Kyle Lahr and Lucy Palmer
 
 ![Image of Muze-Messenger](https://github.com/miadugas/Muze-Messenger/blob/master/Screen%20Shot%202020-03-27%20at%209.30.03%20AM.png)
 
